@@ -90,7 +90,8 @@ export const Home = () => {
             <Title secondary>Percentual das vendas:</Title>
             <ChartPie />
           </Block>
-          <Block 
+          <Block
+            className="lastchild" 
             vertical 
             justifyContent='space-between'
           >

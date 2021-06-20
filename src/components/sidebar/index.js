@@ -23,7 +23,7 @@ export const Sidebar = () => {
   }, [])
 
   const [location, setLocation] = useState('')
-  const [size, setSize] = useState('large')
+  const [size, setSize] = useState('small')
 
   const handleSize = () => {
     setSize(size === 'large' ? 'small' : 'large')

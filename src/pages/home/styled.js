@@ -99,6 +99,12 @@ export const Block = styled.div`
   @media screen and (max-width: 420px) {
     min-width: 100%;
   }
+
+  &.lastchild {
+    @media screen and (max-width: 402px) {
+      display: none;
+    }
+  }
 `
 
 export const ColumnRow = styled.div`
