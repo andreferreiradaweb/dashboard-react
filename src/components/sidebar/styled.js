@@ -12,7 +12,7 @@ const variantWidth = {
 
 export const Wrapper = styled.div`
   ${({ size }) => variantWidth[size]};
-  transition: 0.3s all;
+  transition: 0.7s ease;
   display: flex;
   padding: 30px 0;
   flex-direction: column;
@@ -77,7 +77,7 @@ export const LinkIcon = styled.div`
   align-items: center;
   margin-right: ${({ size }) => size === 'small' ? '' : '10px'};
 
-  svg {
+   svg {
     fill: ${({ isChecked }) => isChecked ? 'var(--yellow)' : ''};
   }
 `

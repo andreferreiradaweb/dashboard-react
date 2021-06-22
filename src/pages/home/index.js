@@ -41,7 +41,7 @@ export const Home = () => {
             alignItems='flex-end'
             BgDisabled
           >
-            <Buttom secondary>+Adicionar Widget</Buttom>
+            <Buttom secondary>+ Adicionar Widget</Buttom>
           </Block>
         </Row>
         <Row>

@@ -1,0 +1,12 @@
+.chart-bar .apexcharts-legend-marker[rel="1"] {
+  background: #FECA42 !important;
+}
+.chart-bar .apexcharts-legend-marker[rel="2"] {
+  background: #F05B5F !important;
+}
+
+@media screen and (max-width: 502px) {
+  .chart-bar .apexcharts-legend {
+    display: none !important;
+  }
+}

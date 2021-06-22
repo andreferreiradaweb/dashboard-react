@@ -12,22 +12,20 @@ import {
   ItemLink
 } from './styled'
 import { Items } from './content'
+import { useSidebarContext } from '../../contexts/sidebar'
 import LogoBellato from '../../assets/img/logo-bellato.png'
 
 import { BiLeftArrow, BiRightArrow } from 'react-icons/bi'
 
 export const Sidebar = () => {
-
+  
+  const [location, setLocation] = useState('')
+  const { size, handleSize } = useSidebarContext()
+ 
   useEffect(() => {
     setLocation(window.location.pathname)
   }, [])
 
-  const [location, setLocation] = useState('')
-  const [size, setSize] = useState('small')
-
-  const handleSize = () => {
-    setSize(size === 'large' ? 'small' : 'large')
-  }
 
   return (
     <Wrapper size={size === 'small' ? 'small' : 'large'}>

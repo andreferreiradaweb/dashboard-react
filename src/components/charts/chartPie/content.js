@@ -1,5 +1,5 @@
 export const options = {
-  labels: ["Pasteis", "Pizzas", "Hambúrgueres", "Bebidas", "Doces"],
+  labels: ["Comibas", "Bebidas"],
   theme: {
     monochrome: {
       enabled: false
@@ -17,7 +17,30 @@ export const options = {
         }
       }
     }
-  ]
+  ],
+  fill: {
+    colors: ['#F05B5F', '#FECA42']
+  },
+  plotOptions: {
+    radialBar: {
+      dataLabels: {
+        name: {
+          show: true,
+        },
+        value: {
+          show: true,
+          fontSize: '14px',
+          formatter: function (val) {
+            return val + '%'
+          }
+        },
+        total: {
+          show: true,
+          label: 'Total'
+        }
+      }
+    }
+  }
 }
 
-export const series = [44, 55, 13, 43, 22]
+export const series = [45, 55]
