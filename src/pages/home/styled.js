@@ -147,7 +147,7 @@ export const Title = styled.strong`
   @media screen and (max-width: 446px) {
     font-size: 14px;
   }
-  @media screen and (max-width: 382px) {
+  @media screen and (max-width: 492px) {
     font-size: 12px;
     text-align: center;
   }

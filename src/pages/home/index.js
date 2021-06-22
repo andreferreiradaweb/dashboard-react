@@ -87,7 +87,7 @@ export const Home = () => {
             vertical 
             justifyContent='space-between'
           >
-            <Title secondary>Percentual das vendas:</Title>
+            <Title secondary>Meta das vendas:</Title>
             <ChartPie />
           </Block>
           <Block
@@ -95,7 +95,7 @@ export const Home = () => {
             vertical 
             justifyContent='space-between'
           >
-            <Title secondary>Desempenho mensal:</Title>
+            <Title secondary>Comparação de desempenho:</Title>
             <ChartBar />
           </Block>
         </Row>
