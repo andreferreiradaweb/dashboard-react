@@ -1,8 +1,8 @@
-# Langing Page - Webnarte
+# Dashboard - (Gatsby)
 
 <img width="100%" src="https://i.imgur.com/bS5gX98.gif">
 
-I made this project for a test show the recrutier my habilities using reactjs.
+I made this project to practice Reactjs
 
 ## Technologies I used
   - Reactjs
