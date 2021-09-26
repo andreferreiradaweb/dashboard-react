@@ -1,6 +1,6 @@
 # Langing Page - Webnarte
 
-<img width="70%" src="https://im3.ezgif.com/tmp/ezgif-3-7dd65b11d5d2.gif">
+<img width="70%" src="https://i.imgur.com/bS5gX98.gif">
 
 I made this project for a test show the recrutier my habilities using reactjs.
 
